@@ -23,10 +23,9 @@
     "migration:generate": "npm run typeorm -- migration:generate",
     "migration:create": "npm run typeorm -- migration:create",
     "migration:revert": "npm run typeorm -- migration:revert",
-    "seed:run": "typeorm-seeding seed -d dist/db/typeorm.config.js",
+    "seed:run": "typeorm-seeding seed -d dist/db/typeorm.config.js"
   },
   "dependencies": {
-    "@jorgebodega/typeorm-seeding": "^6.0.1",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
     "@nestjs/mapped-types": "^1.2.2",
