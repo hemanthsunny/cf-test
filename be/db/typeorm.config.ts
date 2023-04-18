@@ -11,7 +11,7 @@ export const dataSourceOptions: DataSourceOptions & SeederOptions = {
   entities: ['dist/**/*.entity.js'], // Use .js as using build folder
   migrations: ['dist/db/migrations/*.js'],
   seeds: ['src/seeds/*.seed.ts'],
-  synchronize: false, // to sync with database in real-time
+  synchronize: true, // to sync with database in real-time
   logging: true,
 };
 
